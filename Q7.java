@@ -18,6 +18,6 @@ public class Q7 {
         Sum a1 = new Sum();
         a1.sum(5, 7);
         a1.show();
-        a1.pi=4;
+        // a1.pi=4; cannot be reassigned
     }
 }
