@@ -22,3 +22,21 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+# Editor / IDE settings (machine-specific, e.g. local JDBC jar paths)
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Build output directories
+bin/
+out/
+target/
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+*.lnk
